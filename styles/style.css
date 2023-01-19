@@ -6,3 +6,197 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* header */
+#banner {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  /* position: relative;
+  text-align: center;
+  color: white; */
+}
+#landing {
+  background-image: url("./images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  /* object-fit: cover;
+  width: 100%;
+  height: 650px;
+  padding-top: 5vh; */
+}
+/* .centered-text{
+  text-align: center;
+  /* font-size: 4rem; */
+  font-weight: 700;
+} */
+.imgAndText {
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  /* position: absolute;
+  top: 45%;
+  width: 100%; */
+}
+
+.bannerTitle {
+  color: white;
+  position: absolute;
+  top: 17vw;
+  left: 38vw;
+  /* float:center */
+}
+
+/* nav */
+
+nav img {
+  height: 2vw;
+}
+
+#banner img {
+  background-image: url(../images/landing.jpg);
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+  object-fit: cover;
+
+  /* margin:auto;
+    padding: auto;
+    position: relative;
+    flex-wrap: wrap; */
+}
+
+button {
+  background-color: white;
+  border: none;
+  float: right;
+}
+
+button:active{
+  text-shadow:#00b172;
+  border: none;
+  float: right;
+}
+
+/* .navBar {
+  background-color: white;
+  border: none;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}  */
+
+/* "What's on Spotify" Section */
+
+h2 {
+  text-align: center;
+}
+
+.whatsOnTitle {
+  color: #00b172;
+  margin: 1vw 0vw;
+}
+
+#whatsOnSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  box-sizing: border-box;
+  gap: 7vw;
+  flex-wrap: nowrap;
+  /* margin-left: 16vw;
+     margin-right: 10vw; */
+  margin: 0vw 16vw;
+}
+
+hr {
+  text-decoration: underline;
+  color: #00b172;
+  width: 15vw;
+}
+
+.whatsOnIcon {
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#green-section {
+  /* color props  */
+  background: #00b172;
+  /* flex props */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: #fff;
+  margin: 3%;
+  padding: 3%;
+  height: auto;
+  text-align: center;
+  /* Position Props */
+  position: relative;
+}
+#green-section h1 {
+  width: 90%;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: left;
+}
+
+#green-section h1 span {
+  border-bottom: 4px solid #fff;
+}
+#green-section h2 {
+  font-weight: 500;
+}
+#green-section p {
+  font-weight: 100;
+  font-size: 1.5rem;
+  text-align: left;
+}
+#green-section .app-img {
+  width: 55%;
+}
+#green-section .white-spotify {
+  width: 9vw;
+}
+#green-section .external-div {
+  /* flex props */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+#green-section .internal-div {
+  /* flex props */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  width: 45%;
+}
+#green-section .internal-div2 {
+  width: 10%;
+}
+#green-section .internal-div3 {
+  width: 45%;
+}
